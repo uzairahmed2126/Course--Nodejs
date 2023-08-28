@@ -1,2 +1,2 @@
-const {people,ages} = require('./people')
-console.log(`people = ${people},\nages=${ages},\ncity=${'city is gone'}`)
+const {people,ages,city,email} = require('./people')
+console.log(`people = ${people},\nages=${ages},\ncity=${city},\nemail=${email}`)
